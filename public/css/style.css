@@ -63,3 +63,49 @@ body {
 .f-info-links a {
   margin-right: 1rem;
 }
+
+
+/* Cards Styling */
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Hover Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+
+/* New & Edit Buttons */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.add-btn:hover {
+  background-color: #e0323c !important;
+}
