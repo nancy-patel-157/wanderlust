@@ -109,3 +109,17 @@ body {
 .add-btn:hover {
   background-color: #e0323c !important;
 }
+
+/* Show Page Styling */
+.show-img {
+  height: 30vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
